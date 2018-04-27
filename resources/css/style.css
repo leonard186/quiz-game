@@ -8,18 +8,95 @@ header {
   background-color: #c94c4c;
   padding: 1rem;
   color: #deeaee;
+
   text-align: center;
 }
 
-.summary {
-  height:10rem;
+.figure {
+  min-height:10rem;
   max-width:30rem;
   margin: 2rem auto;
   line-height: 1.5rem;
   overflow:auto;
-  background-color:yellowgreen;
-  color:white;
+  background-color: #eea29a;
+  color: #c94c4c;
   scrollbar-base-color:gold;
   font-family:sans-serif;
   padding: 0.7rem;
+}
+
+nav {
+  max-width: 30rem;
+  margin: auto;
+}
+
+.nav {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.nav button {
+  margin: 1rem;
+  width: 7rem;
+  padding: 0.5rem;
+  background-color: #c94c4c;
+  color: #deeaee;
+
+}
+
+#reset {
+  background-color: #c94c4c;
+  color: #deeaee;
+}
+
+@media only screen and (max-width: 450px) {
+  .nav {
+    justify-content: center;
+  }
+}
+
+#summary {
+  min-height: 3rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  background-color: #c94c4c;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #deeaee;
+}
+
+#answers {
+  line-height: 2.5rem;
+  min-height: 10rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  background-color: #c94c4c;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+  color: #deeaee;
+}
+
+.answer-wrap:hover {
+  background-color: #eea29a;
+}
+
+.answer-wrap:active {
+  background-color: #deeaee;
+  color: #c94c4c;
+}
+
+.answer-wrap:visited {
+  background-color: #b1cbbb;
+}
+
+footer {
+  margin-top: 7rem;
+  background-color: #c94c4c;
+  padding-left: 2rem;
+  line-height: 1.5rem;
+  color:#b1cbbb;
 }

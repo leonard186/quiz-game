@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> Quiz Game </title>
-  <link rel="icon" href="resources\images\..." type="image/icon">
+  <link rel="icon" href="resources\images\quiz.ico" type="image/icon">
   <!-- Reset -->
   <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
   <!-- Font Awesome -->
@@ -23,19 +23,53 @@
 <!-- Main Content -->
 
 <main>
-	<section id="console">
-    <summary class="summary">
+
+  <figure class="figure" id="console">
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </summary>
+  </figure>
+
+  <nav>
+    <div class="nav">
+      <button type="button" id="reset">Reset game</button>
+      <div>
+        <button type="button" id='forward'><< Previous</button>
+        <button type="button" id="back">Next >></button>
+      </div>
+    </div>
+  </nav>
+
+  <summary id="summary">
+      Some questions?
+  </summary>
+
+	<section id="answers">
+
+    <div class="answer-wrap">
+      <hr>
+      <option id="a-1">Volvo</option>
+      <hr>
+    </div>
+
+    <div class="answer-wrap">
+      <hr>
+      <option id="a-1">Volvo</option>
+      <hr>
+    </div>
+
+    <div class="answer-wrap">
+      <hr>
+      <option id="a-1">Volvo</option>
+      <hr>
+    </div>
+
   </section>
-	<section></section>
-	<section></section>
-	<section></section>
 </main>
 
 <!-- Footer Section -->
 
-<footer></footer>
+<footer>
+  Created by leonard
+</footer>
 <script src="resources\js\app.js"></script>
 </body>
 </html>
