@@ -1,0 +1,25 @@
+
+body {
+  background-color: #deeaee;
+}
+
+header {
+  font-size: 2rem;
+  background-color: #c94c4c;
+  padding: 1rem;
+  color: #deeaee;
+  text-align: center;
+}
+
+.summary {
+  height:10rem;
+  max-width:30rem;
+  margin: 2rem auto;
+  line-height: 1.5rem;
+  overflow:auto;
+  background-color:yellowgreen;
+  color:white;
+  scrollbar-base-color:gold;
+  font-family:sans-serif;
+  padding: 0.7rem;
+}
