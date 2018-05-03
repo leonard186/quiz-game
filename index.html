@@ -24,41 +24,46 @@
 
 <main>
 
-  <figure class="figure" id="console">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </figure>
+  <section id="quiz-options">
+    <button class="quiz-option" id="quiz1">Astronomy</button>
+    <button class="quiz-option" id="quiz2">Geography</button>
+    <button class="quiz-option" id="quiz3">Mathematics</button>
+  </section>
 
   <nav>
     <div class="nav">
-      <button type="button" id="reset">Reset game</button>
+      <button type="button" id="reset">Reset</button>
       <div>
-        <button type="button" id='forward'><< Previous</button>
-        <button type="button" id="back">Next >></button>
+        <button type="button" class="hide" id='back'><< Previous</button>
+        <button type="button" class="hide" id="forward">Next >></button>
       </div>
     </div>
   </nav>
 
+  <figure class="figure" id="console">
+  </figure>
+
   <summary id="summary">
-      Some questions?
+      Please choose your topic!
   </summary>
 
 	<section id="answers">
 
     <div class="answer-wrap">
       <hr>
-      <option id="a-1">Volvo</option>
+      <option class="answer" id="a-1"></option>
       <hr>
     </div>
 
     <div class="answer-wrap">
       <hr>
-      <option id="a-1">Volvo</option>
+      <option class="answer" id="a-2"></option>
       <hr>
     </div>
 
     <div class="answer-wrap">
       <hr>
-      <option id="a-1">Volvo</option>
+      <option class="answer" id="a-3"></option>
       <hr>
     </div>
 

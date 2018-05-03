@@ -12,17 +12,37 @@ header {
   text-align: center;
 }
 
+.hide{
+  display: none;
+}
+
+#quiz-options {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.quiz-option {
+  padding: 0.3rem;
+  margin: 0 0.3rem;
+  background-color: #b1cbbb;
+}
+
+.quiz-option:focus {
+  border-color: #c94c4c;
+}
+
 .figure {
-  min-height:10rem;
+  height:5rem;
   max-width:30rem;
-  margin: 2rem auto;
-  line-height: 1.5rem;
+  margin: 0rem auto;
+  line-height: 1rem;
   overflow:auto;
   background-color: #eea29a;
   color: #c94c4c;
   scrollbar-base-color:gold;
   font-family:sans-serif;
   padding: 0.7rem;
+  font-size: 0.7rem;
 }
 
 nav {
@@ -78,6 +98,11 @@ nav {
   text-align: left;
   font-size: 1.5rem;
   color: #deeaee;
+}
+
+.answer {
+  min-height: 1rem;
+  font-size: 1.3rem;
 }
 
 .answer-wrap:hover {
